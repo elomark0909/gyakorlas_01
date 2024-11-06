@@ -1,3 +1,20 @@
 git clone https://github.com/elomark0909/gyakorlas_01
 cd gyakorlas_01
 touch history
+git add history
+git commot -m 'Add history'
+git branch feature
+git checkout feature
+
+git add halloween
+git commit -m 'Szöveg hozzáadva'
+git add halloween
+git checkout main
+git merge feature
+git branch pictures
+git checkout pictures
+kep_01.jpg és kep_02.jpg hozzáadva
+git commit -m 'Képek hozzáadva'
+git checkout main
+git merge pictures
+git push origin main
